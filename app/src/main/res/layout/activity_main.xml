@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/student">
+
+    <ImageView
+        android:id="@+id/logoName"
+        android:layout_width="273dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="560dp"
+        android:paddingTop="1dp"
+        android:src="@drawable/logoname">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/studentInfoButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoName"
+        android:layout_marginTop="-500dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:text="Student Info"/>
+
+    <Button
+        android:id="@+id/administratorInfoButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentInfoButton"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        android:text="Administrator" />
+
+    <Button
+        android:id="@+id/contactUsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/administratorInfoButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="315dp"
+        android:fontFamily="monospace"
+        android:text="Contact Us"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

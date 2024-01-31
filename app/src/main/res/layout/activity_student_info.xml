@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/student"
+    android:gravity="center_horizontal">
+
+
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextFatherName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Father Name"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact No"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextNICNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIC No"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

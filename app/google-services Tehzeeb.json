@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832944335633",
+    "project_id": "fir-da906",
+    "storage_bucket": "fir-da906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832944335633:android:c6253e172baf818b933ab0",
+        "android_client_info": {
+          "package_name": "com.example.studentdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzU9rWsRBNhBkrz679yU0kNh032A7cVxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
